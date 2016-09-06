@@ -1,0 +1,16 @@
+
+   int a , b , c ; /* this is new */ 
+
+   if ( a < b )
+       a = a + b ;
+   else if ( a < c ) 
+       a  = a + c ;
+   else if ( b < c )
+       b = b + c ; 
+   else 
+       a = c ; 
+ 
+   return 0 ;
+
+
+//this_is_new_.. 
